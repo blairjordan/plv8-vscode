@@ -1,0 +1,39 @@
+{
+  "name": "vscode-plv8",
+  "displayName": "PLV8 Highlighter",
+  "description": "Highlight PLV8 code in .sql files",
+  "version": "1.0.0",
+  "publisher": "blairjordan",
+  "keywords": [
+    "plv8",
+    "postgres",
+    "javascript",
+    "js",
+    "sql",
+    "extension"
+  ],
+  "repository": {
+    "url": "https://github.com/blairjordan?tab=repositories/plv8-vscode"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Formatters"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/plv8.json",
+        "scopeName": "sql-plv8.injection",
+        "injectTo": [
+          "source.sql"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.javascript": "javascript"
+        }
+      }
+    ]
+  }
+}

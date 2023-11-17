@@ -1,0 +1,25 @@
+{
+  "fileTypes": ["sql"],
+  "injectionSelector": "L:source.sql",
+  "patterns": [
+    {
+      "begin": "(AS \\$BODY\\$|\\$\\$)",
+      "end": "(\\$BODY\\$|\\$\\$) (?i:language) plv8(?:\\s*(?:IMMUTABLE|STRICT|REPLACES))?;",
+      "patterns": [
+        {
+          "include": "source.js"
+        }
+      ]
+    },
+    {
+      "begin": "(?i:language) plv8(?:\\s*(?:IMMUTABLE|STRICT|REPLACES))? AS (\\$BODY\\$|\\$\\$)",
+      "end": "(\\$BODY\\$|\\$\\$);",
+      "patterns": [
+        {
+          "include": "source.js"
+        }
+      ]
+    }
+  ],
+  "scopeName": "sql-plv8.injection"
+}
