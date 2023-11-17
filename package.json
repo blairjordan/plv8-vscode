@@ -1,8 +1,8 @@
 {
-  "name": "vscode-plv8",
+  "name": "plv8-vscode",
   "displayName": "PLV8 Highlighter",
   "description": "Highlight PLV8 code in .sql files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "pegleg",
 	"icon": "icon.png",
   "keywords": [

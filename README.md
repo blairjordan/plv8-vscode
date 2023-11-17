@@ -1,15 +1,18 @@
-# PLV8 Syntax Highlighting for VSCode
+# PLV8 Syntax Highlighter for VSCode
+
+![PLV8 Syntax Highlighter logo](https://github.com/blairjordan/plv8-vscode/raw/main/media/logo.png)
+
 
 Enhance your PostgreSQL development with JavaScript syntax highlighting in PLV8 functions within `.sql` files.
 
-https://github.com/blairjordan/plv8-vscode/raw/main/screenshots/screenshot1.png
+![Screenshot 1](https://github.com/blairjordan/plv8-vscode/raw/main/media/screenshot1.png)
 
 ## Features
 
 - Automatic JavaScript highlighting in SQL files with PLV8 functions.
 - Complements existing SQL and JavaScript extensions.
 
-## Installation
+## Install
 
 Install from the VSCode Marketplace: Search 'PLV8 Syntax Highlighter' → Click 'Install'.
 
