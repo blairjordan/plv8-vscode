@@ -3,7 +3,8 @@
   "displayName": "PLV8 Highlighter",
   "description": "Highlight PLV8 code in .sql files",
   "version": "1.0.0",
-  "publisher": "blairjordan",
+  "publisher": "pegleg",
+	"icon": "icon.png",
   "keywords": [
     "plv8",
     "postgres",
